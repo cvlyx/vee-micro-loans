@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+dist/
+
+# Environment variables
+.env
+
+# Drizzle
+drizzle/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

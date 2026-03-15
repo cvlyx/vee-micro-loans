@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Phoenix Loan",
+    "slug": "phoenix-loan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "phoenixloan",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6B21A8"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.phoenixloan.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.phoenixloan.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#6B21A8",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-web-browser",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#6B21A8",
+          "defaultChannel": "phoenix-loans",
+          "sounds": [],
+          "projectId": "04a89dc6-53dc-4ae7-9174-dbc8caa19724"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {
+        "origin": "https://replit.com/"
+      },
+      "eas": {
+        "projectId": "374cd65a-7c67-47b1-8caa-2fb11dec4628"
+      }
+    },
+    "owner": "mzaga"
+  }
+}

@@ -1,0 +1,52 @@
+# Documentation and wiki
+.qoder/
+README.md
+README_BASIC.md
+BACKEND_SETUP.md
+PUSH_NOTIFICATIONS_SETUP.md
+SECURITY_EMERGENCY.md
+replit.md
+
+# Local state and cache
+.local/
+.expo/
+dist/
+
+# Backend development files (not needed for mobile build)
+backend/migrate*.ts
+backend/migrate*.sql
+backend/*.sql
+backend/test-db.ts
+backend/reset-db.sql
+backend/fix-columns.sql
+backend/update-schema.sql
+backend/admin-schema-update.ts
+backend/generate-admin-hash.js
+backend/create-*.sql
+backend/add_*.sql
+
+# Development and debug files
+debug-notifications.js
+scripts/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+__tests__/
+*.test.ts
+*.test.tsx
+
+# Misc
+.DS_Store
+*.pem
+*.key
