@@ -14,7 +14,7 @@
     "preview": {
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_API_URL": "http://192.168.90.50:5000/api"
+        "EXPO_PUBLIC_API_URL": "https://phoenix-loan-api.onrender.com/api"
       }
     },
     "production": {
