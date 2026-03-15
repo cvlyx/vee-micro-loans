@@ -14,13 +14,13 @@
     "preview": {
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://phoenix-loan-api.onrender.com/api"
+        "EXPO_PUBLIC_API_URL": "https://vee-micro-loans-api.onrender.com/api"
       }
     },
     "production": {
       "autoIncrement": true,
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://phoenix-loan-api.onrender.com/api"
+        "EXPO_PUBLIC_API_URL": "https://vee-micro-loans-api.onrender.com/api"
       }
     }
   },
