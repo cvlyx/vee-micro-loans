@@ -414,7 +414,7 @@ export default function RegisterScreen() {
         <View style={styles.logoIcon}>
           <MaterialCommunityIcons name="bird" size={20} color={Colors.white} />
         </View>
-        <Text style={styles.brand}>Phoenix Loan</Text>
+        <Text style={styles.brand}>Vee Micro Loans</Text>
       </View>
 
       <Text style={styles.title}>Create Account</Text>

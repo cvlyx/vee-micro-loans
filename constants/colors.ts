@@ -1,48 +1,49 @@
-const PRIMARY = '#6B21A8';
-const SECONDARY = '#9333EA';
-const ACCENT = '#A855F7';
+// Vee Micro Loans - Sharp Yellow Theme
+const PRIMARY = '#FFB800';      // Bright golden yellow
+const SECONDARY = '#FFA000';    // Deep amber yellow
+const ACCENT = '#FFC107';       // Material amber
 
 export const Colors = {
   primary: PRIMARY,
   secondary: SECONDARY,
   accent: ACCENT,
-  light: '#E9D5FF',
-  lavender: '#F3E8FF',
-  dark: '#1A0533',
-  background: '#F9F5FF',
+  light: '#FFF8E1',            // Light yellow tint
+  lavender: '#FFFDE7',          // Very light yellow
+  dark: '#3D3200',              // Dark yellow/brown
+  background: '#FFFEF5',        // Warm white background
   white: '#FFFFFF',
-  text: '#1A0533',
-  textSecondary: '#7C6B8A',
-  textMuted: '#9B8AA8',
-  border: '#E9D5FF',
-  borderLight: '#F3E8FF',
+  text: '#3D3200',
+  textSecondary: '#8A7A4A',
+  textMuted: '#A89860',
+  border: '#FFE082',
+  borderLight: '#FFF8E1',
   success: '#10B981',
   successLight: '#D1FAE5',
-  warning: '#F59E0B',
-  warningLight: '#FEF3C7',
+  warning: '#FF8F00',
+  warningLight: '#FFF3E0',
   error: '#EF4444',
   errorLight: '#FEE2E2',
   info: '#3B82F6',
   infoLight: '#DBEAFE',
   card: '#FFFFFF',
-  cardAlt: '#F9F5FF',
-  overlay: 'rgba(107, 33, 168, 0.08)',
-  gradientStart: '#6B21A8',
-  gradientEnd: '#9333EA',
-  gradientLight: '#C084FC',
+  cardAlt: '#FFFEF5',
+  overlay: 'rgba(255, 184, 0, 0.08)',
+  gradientStart: '#FFB800',
+  gradientEnd: '#FFA000',
+  gradientLight: '#FFD54F',
   // Admin light theme - surfaces & text for light bg
   adminCardBg: '#FFFFFF',
-  adminCardBorder: 'rgba(107, 33, 168, 0.15)',
-  adminMutedBg: 'rgba(26, 5, 51, 0.04)',
-  adminMutedBorder: 'rgba(26, 5, 51, 0.08)',
-  adminPlaceholder: 'rgba(26, 5, 51, 0.4)',
-  adminIconMuted: '#7C6B8A',
+  adminCardBorder: 'rgba(255, 184, 0, 0.25)',
+  adminMutedBg: 'rgba(61, 50, 0, 0.04)',
+  adminMutedBorder: 'rgba(61, 50, 0, 0.08)',
+  adminPlaceholder: 'rgba(61, 50, 0, 0.4)',
+  adminIconMuted: '#8A7A4A',
   // Dark mode
-  darkBackground: '#0F0720',
-  darkCard: '#1E0D3A',
-  darkBorder: '#2D1554',
-  darkText: '#F3E8FF',
-  darkTextSecondary: '#9F7FC4',
+  darkBackground: '#1A1500',
+  darkCard: '#2D2600',
+  darkBorder: '#3D3200',
+  darkText: '#FFF8E1',
+  darkTextSecondary: '#C4B060',
 };
 
 export default {

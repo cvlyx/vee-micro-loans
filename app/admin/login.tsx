@@ -77,7 +77,7 @@ export default function AdminLoginScreen() {
               <MaterialCommunityIcons name="shield-crown" size={36} color={Colors.white} />
             </View>
             <Text style={styles.adminLabel}>ADMIN PORTAL</Text>
-            <Text style={styles.appName}>Phoenix Loan</Text>
+            <Text style={styles.appName}>Vee Micro Loans</Text>
             <Text style={styles.tagline}>Lender Dashboard — Secure Access</Text>
           </View>
 
@@ -154,7 +154,7 @@ export default function AdminLoginScreen() {
           </Animated.View>
 
           <View style={styles.footer}>
-            <Text style={styles.footerText}>Phoenix Loan Services Admin v1.0</Text>
+            <Text style={styles.footerText}>Vee Micro Loans Admin v1.0</Text>
             <Text style={styles.footerText}>Malawi · Secure Portal</Text>
           </View>
         </ScrollView>

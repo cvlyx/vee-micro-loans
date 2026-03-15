@@ -22,7 +22,7 @@ const PAYMENT_INSTRUCTIONS = [
     instructions: [
       'Dial *400# on your phone',
       'Select "Send Money"',
-      'Enter Phoenix Loan number: 0997 971 750',
+      'Enter Vee Micro Loans number: 0997 971 750',
       'Enter the total repayment amount',
       'Confirm with your PIN',
       'Take a screenshot of the confirmation',
@@ -36,7 +36,7 @@ const PAYMENT_INSTRUCTIONS = [
     instructions: [
       'Dial *929# on your phone',
       'Select "Send Money"',
-      'Enter Phoenix Loan number: 0894 741 508',
+      'Enter Vee Micro Loans number: 0894 741 508',
       'Enter the total repayment amount',
       'Confirm with your PIN',
       'Take a screenshot of the confirmation',
@@ -48,7 +48,7 @@ const PAYMENT_INSTRUCTIONS = [
     icon: 'business-outline',
     color: '#3B82F6',
     instructions: [
-      'Transfer to: Phoenix Loan Services',
+      'Transfer to: Vee Micro Loans',
       'Account Number: 1234567890',
       'Bank: National Bank of Malawi',
       'Branch: Lilongwe City Branch',
@@ -160,7 +160,7 @@ function RatingModal({ loan, onClose }: { loan: LoanApplication; onClose: () => 
         <View style={ratingStyles.container}>
           <View style={ratingStyles.handle} />
           <Text style={ratingStyles.title}>Rate Your Experience</Text>
-          <Text style={ratingStyles.subtitle}>How was your experience with Phoenix Loan?</Text>
+          <Text style={ratingStyles.subtitle}>How was your experience with Vee Micro Loans?</Text>
 
           <View style={ratingStyles.stars}>
             {[1, 2, 3, 4, 5].map(s => (

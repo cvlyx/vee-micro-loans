@@ -50,7 +50,7 @@ export async function registerForPushNotificationsAsync(): Promise<string | null
 
     if (Platform.OS === 'android') {
         await Notifications.setNotificationChannelAsync('phoenix-loans', {
-            name: 'Phoenix Loan Alerts',
+            name: 'Vee Micro Loans Alerts',
             importance: Notifications.AndroidImportance.MAX,
             vibrationPattern: [0, 250, 250, 250],
             sound: 'default',

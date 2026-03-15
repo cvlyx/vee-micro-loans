@@ -105,7 +105,7 @@ auth.post('/register', zValidator('json', registerSchema), async (c) => {
     // TODO: Create welcome notification (uncomment after notifications table is created)
     // await db.insert(notifications).values({
     //   userId: newUser.id,
-    //   title: 'Welcome to Phoenix Loan!',
+    //   title: 'Welcome to Vee Micro Loans!',
     //   message: `Your account has been created successfully, ${fullName}. You can now apply for loans.`,
     //   type: 'registration',
     // });

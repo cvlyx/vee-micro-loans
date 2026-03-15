@@ -1,29 +1,29 @@
 {
   "expo": {
-    "name": "Phoenix Loan",
-    "slug": "phoenix-loan",
+    "name": "Vee Micro Loans",
+    "slug": "vee-micro-loans",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "phoenixloan",
+    "scheme": "veemicroloans",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#6B21A8"
+      "backgroundColor": "#FFB800"
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.phoenixloan.app",
+      "bundleIdentifier": "com.veemicroloans.app",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "com.phoenixloan.app",
+      "package": "com.veemicroloans.app",
       "adaptiveIcon": {
-        "backgroundColor": "#6B21A8",
+        "backgroundColor": "#FFB800",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -44,8 +44,8 @@
         "expo-notifications",
         {
           "icon": "./assets/images/icon.png",
-          "color": "#6B21A8",
-          "defaultChannel": "phoenix-loans",
+          "color": "#FFB800",
+          "defaultChannel": "vee-micro-loans",
           "sounds": [],
           "projectId": "04a89dc6-53dc-4ae7-9174-dbc8caa19724"
         }

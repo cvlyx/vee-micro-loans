@@ -52,7 +52,7 @@ app.get('/doc', (c) => {
   return c.json({
     openapi: '3.0.0',
     info: {
-      title: 'Phoenix Loan API',
+      title: 'Vee Micro Loans API',
       version: '1.0.0',
       description: 'Loan management system API',
     },

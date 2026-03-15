@@ -252,7 +252,7 @@ export default function AdminSettingsScreen() {
           <View style={styles.infoBannerLeft}>
             <MaterialCommunityIcons name="shield-crown" size={24} color={Colors.white} />
             <View>
-              <Text style={styles.companyName}>Phoenix Loan Services</Text>
+              <Text style={styles.companyName}>Vee Micro Loans</Text>
               <Text style={styles.companyTagline}>Malawi Digital Lending · Admin v1.0</Text>
             </View>
           </View>

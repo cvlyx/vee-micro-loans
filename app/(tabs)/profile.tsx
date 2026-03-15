@@ -407,7 +407,7 @@ export default function ProfileScreen() {
               <SettingRow
                 icon="document-text-outline"
                 label="Terms & Conditions"
-                onPress={() => { Haptics.selectionAsync(); Alert.alert('Terms & Conditions', 'Late payments incur penalty fees. Phoenix Loan reserves the right to report defaulters. Collateral may be claimed in case of default. GPS tracking is active during loan period. Data is securely encrypted per our privacy policy.'); }}
+                onPress={() => { Haptics.selectionAsync(); Alert.alert('Terms & Conditions', 'Late payments incur penalty fees. Vee Micro Loans reserves the right to report defaulters. Collateral may be claimed in case of default. GPS tracking is active during loan period. Data is securely encrypted per our privacy policy.'); }}
               />
               <SettingRow
                 icon="shield-outline"
@@ -424,7 +424,7 @@ export default function ProfileScreen() {
               <Text style={styles.logoutText}>Sign Out</Text>
             </Pressable>
 
-            <Text style={styles.appVersion}>Phoenix Loan v1.0.0 · Malawi</Text>
+            <Text style={styles.appVersion}>Vee Micro Loans v1.0.0 · Malawi</Text>
           </>
         )}
 
