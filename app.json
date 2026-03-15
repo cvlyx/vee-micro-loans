@@ -46,23 +46,14 @@
           "icon": "./assets/images/icon.png",
           "color": "#FFB800",
           "defaultChannel": "vee-micro-loans",
-          "sounds": [],
-          "projectId": "04a89dc6-53dc-4ae7-9174-dbc8caa19724"
+          "sounds": []
         }
       ]
     ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    },
     "extra": {
       "router": {
         "origin": "https://replit.com/"
-      },
-      "eas": {
-        "projectId": "374cd65a-7c67-47b1-8caa-2fb11dec4628"
       }
-    },
-    "owner": "mzaga"
+    }
   }
 }
