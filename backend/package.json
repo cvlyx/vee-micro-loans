@@ -1,7 +1,7 @@
 {
-  "name": "phoenix-loan-backend",
+  "name": "vee-micro-loans-backend",
   "version": "1.0.0",
-  "description": "Backend API for Phoenix Loan application",
+  "description": "Backend API for Vee Micro Loans application",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
